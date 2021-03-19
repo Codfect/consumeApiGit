@@ -1,0 +1,48 @@
+h1 {
+  color: var(--text)
+}
+
+.iconBack {
+  text-decoration: none;
+  color: purple;
+  transition: 0.2s;
+}
+
+.iconBack:hover {
+  color:white;
+}
+
+.info {
+  margin-top: 80px;
+}
+
+.info div {
+  display: flex;
+  align-items: center;
+}
+
+.repository-info {
+  display: flex;
+  flex-direction: column;
+  margin: 70px 0px 0px 120px;;
+}
+
+.repository-info div {
+  margin: 5px;
+  padding: 20px;
+  transition: 0.2s;
+}
+
+.repository-info div:hover {
+  background-color: purple;
+  border-radius: 5px;
+  margin-left: 12px;
+}
+
+.repository-info p {
+  margin: 10px;
+}
+
+.repository-info a strong{
+  margin-bottom: 10px;
+}

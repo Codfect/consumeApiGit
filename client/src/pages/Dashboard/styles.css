@@ -1,0 +1,99 @@
+h1 {
+  font-size: 30px;
+  color: var(--title);
+}
+
+.searchArea {
+  margin-top: 40px;
+  width: 500px;
+
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.searchArea input {
+  flex: 1;
+  padding: 0 24px;
+  border-radius: 5px 0px 0px 5px;
+}
+
+
+.searchArea button {
+  width: 150px;
+  height: 50px;
+  background: purple;
+  border-radius: 0px 5px 5px 0px;
+  color: #fff;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+.searchArea button:hover {
+  background: lightgray;
+  color: black;
+}
+
+.dashboardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.repositories a{
+  padding: 7px 30px;
+  border-radius: 5px;
+  display: block;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.4s;
+}
+.repositories a:hover{
+  background-color: purple;
+}
+
+.repositories img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+
+.repositories div {
+  margin-left: 20px;
+}
+
+.repositories div strong{
+  font-size: 17px;
+  color: var(--text);
+}
+
+.repositories div p{
+  font-size: 13px;
+  color: #a8a8b3;
+  margin-top: 7px;
+}
+
+.error {
+  position: fixed;
+  display: block;
+  color: purple;
+  margin: 129px 230px 0px 0px;
+}
+
+.user-infos {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 7px;
+}
+
+.user-infos strong {
+  margin-right: 35px;
+}
+
+.social-infos {
+  display: flex;
+  align-items: baseline;
+}
+
+.social-infos p {
+  margin-right: 9px;
+}

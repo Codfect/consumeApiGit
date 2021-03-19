@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background: #000;
+  --text: #fff;
+
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+}
+
+body, input, textarea, button {
+  font: 400 1rem "Inter", sans-serif;
+  border: 0 none;
+  outline: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
